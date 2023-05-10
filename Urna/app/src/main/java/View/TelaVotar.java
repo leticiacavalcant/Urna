@@ -29,6 +29,7 @@ public class TelaVotar extends javax.swing.JFrame {
         buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+
         botaoShingeki = new javax.swing.JRadioButton();
         botaoDBZ = new javax.swing.JRadioButton();
         botaoOneP = new javax.swing.JRadioButton();
@@ -49,7 +50,8 @@ public class TelaVotar extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(205, 175, 235));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rubik.png"))); // NOI18N
-        jLabel1.setText("Votação");
+        jLabel1.setText("Votaï¿½ï¿½o");
+
 
         botaoShingeki.setBackground(new java.awt.Color(66, 18, 114));
         buttonGroup1.add(botaoShingeki);
@@ -109,13 +111,14 @@ public class TelaVotar extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(205, 175, 235));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("Qual é o melhor anime?");
+        jLabel7.setText("Qual ï¿½ o melhor anime?");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(207, 207, 207)
@@ -150,12 +153,14 @@ public class TelaVotar extends javax.swing.JFrame {
                     .addComponent(botaoShingeki, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(botaoOneP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(99, 99, 99))
+
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(58, 58, 58)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel7)
                 .addGap(31, 31, 31)
@@ -184,6 +189,7 @@ public class TelaVotar extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                 .addComponent(botaoVotar, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(56, 56, 56))
+
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -200,6 +206,7 @@ public class TelaVotar extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+
     private void botaoDBZActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoDBZActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_botaoDBZActionPerformed
@@ -213,6 +220,7 @@ public class TelaVotar extends javax.swing.JFrame {
             
         }
     }//GEN-LAST:event_botaoVotarActionPerformed
+
 
     /**
      * @param args the command line arguments
@@ -248,6 +256,7 @@ public class TelaVotar extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+
     private javax.swing.JRadioButton botaoDBZ;
     private javax.swing.JRadioButton botaoKimetsu;
     private javax.swing.JRadioButton botaoOneP;
@@ -262,5 +271,6 @@ public class TelaVotar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+
     // End of variables declaration//GEN-END:variables
 }

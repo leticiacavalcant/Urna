@@ -8,13 +8,21 @@ package Model;
  *
  * @author letic
  */
-public class Eleitor {
+public abstract class Participantes {
+    private int id;
     private String nome;
-    private String user;
 
-    public Eleitor(String nome, String user) {
+    public Participantes(int id, String nome) {
+        this.id = id;
         this.nome = nome;
-        this.user = user;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -24,14 +32,11 @@ public class Eleitor {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public String getUser() {
-        return user;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
-    }         
+    
+    public abstract void adicionarVoto();
+    // implementar metodo adicionarVoto() para participantes
+    // registrar um único voto para o usuário e os votos dos candidatos
+    
     
     
 }
