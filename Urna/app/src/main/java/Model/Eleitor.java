@@ -4,8 +4,6 @@
  */
 package Model;
 
-import Main.App;
-
 /**
  *
  * @author letic
@@ -13,7 +11,6 @@ import Main.App;
 public class Eleitor {
     private String nome;
     private String user;
-    private boolean voto;
 
     public Eleitor(String nome, String user) {
         this.nome = nome;

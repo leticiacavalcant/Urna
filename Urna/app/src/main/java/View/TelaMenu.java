@@ -44,7 +44,8 @@ public class TelaMenu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(205, 175, 235));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rubik.png"))); // NOI18N
-        jLabel1.setText("Menu Geek");
+
+        jLabel1.setText("Eleiï¿½ï¿½o Geek");
 
         jButton1.setBackground(new java.awt.Color(28, 2, 55));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
@@ -57,7 +58,7 @@ public class TelaMenu extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(28, 2, 55));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Finalizar Votação");
+        jButton2.setText("Finalizar Votaï¿½ï¿½o");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -79,7 +80,8 @@ public class TelaMenu extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(198, Short.MAX_VALUE))
+
+                .addContainerGap(182, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
